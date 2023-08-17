@@ -1,1 +1,157 @@
-const _0x39856d=_0x2431;(function(_0x29a105,_0x3b2a41){const _0x312ec6=_0x2431,_0x144604=_0x29a105();while(!![]){try{const _0x392057=parseInt(_0x312ec6(0x164))/0x1+-parseInt(_0x312ec6(0x177))/0x2+-parseInt(_0x312ec6(0x14c))/0x3*(parseInt(_0x312ec6(0x179))/0x4)+-parseInt(_0x312ec6(0x160))/0x5*(parseInt(_0x312ec6(0x170))/0x6)+parseInt(_0x312ec6(0x155))/0x7*(parseInt(_0x312ec6(0x13f))/0x8)+-parseInt(_0x312ec6(0x15b))/0x9+parseInt(_0x312ec6(0x17a))/0xa*(parseInt(_0x312ec6(0x174))/0xb);if(_0x392057===_0x3b2a41)break;else _0x144604['push'](_0x144604['shift']());}catch(_0x140175){_0x144604['push'](_0x144604['shift']());}}}(_0x4402,0x4a288));function _0x2431(_0x5bfc67,_0x5c0493){const _0x4402f6=_0x4402();return _0x2431=function(_0x243145,_0x291853){_0x243145=_0x243145-0x13f;let _0x150986=_0x4402f6[_0x243145];return _0x150986;},_0x2431(_0x5bfc67,_0x5c0493);}const songs=[{'title':'Ishqam','src':_0x39856d(0x151),'poster':_0x39856d(0x14a),'details':'Ishqam\x20-\x20Mika\x20Singh\x20ft.\x20Ali\x20Quli\x20Mirza'},{'title':'Katilana','src':_0x39856d(0x144),'poster':_0x39856d(0x148),'details':'Katilana_Teri_Aankhen_Aankhen_Bhi_Karti_Hai'},{'title':_0x39856d(0x163),'src':_0x39856d(0x176),'poster':'./Images/mann.jpg','details':'Maan\x20Meri\x20Jaan\x20Champagne\x20Talk\x20128\x20Kbps'},{'title':_0x39856d(0x149),'src':_0x39856d(0x167),'poster':_0x39856d(0x169),'details':_0x39856d(0x16c)}],postersContainer=document[_0x39856d(0x16e)](_0x39856d(0x14d)),audioPlayer=document['getElementById'](_0x39856d(0x154)),audioSource=document[_0x39856d(0x16e)](_0x39856d(0x145)),playButton=document[_0x39856d(0x16e)]('playButton'),prevButton=document[_0x39856d(0x16e)](_0x39856d(0x147)),nextButton=document[_0x39856d(0x16e)](_0x39856d(0x142)),songTitle=document['getElementById']('songTitle'),songDetail=document[_0x39856d(0x16e)](_0x39856d(0x162)),posterImage=document[_0x39856d(0x16e)]('posterImage');function _0x4402(){const _0x2774bb=['songDetail','Maan\x20Meri\x20Jaan','71634ACeGgX','col-md-4','querySelector','./Munda\x20Sona\x20Hoon\x20Main\x20Shehzada\x20128\x20Kbps.mp3','progress','./Images/munda.jpg','map','title','Munda\x20Sona\x20Hoon\x20Main\x20Shehzada\x20128\x20Kbps','load','getElementById','col','1515138MxfyaP','.slider::-webkit-slider-runnable-track','poster','paused','1793OLVYqU','addEventListener','./Maan\x20Meri\x20Jaan\x20Champagne\x20Talk\x20128\x20Kbps.mp3','78778uNZczL','song','16FZrIGX','77270QNixuH','72SUFpXr','appendChild','play','nextButton','value','./Katilana_Teri_Aankhen_Aankhen_Bhi_Karti_Hai_BatenPagalWorldl.mp3','audioSource','details','prevButton','./Images/katilana.jpeg','Munda\x20Sona\x20Hoon','./Images/ishqam.jpg','ended','285459yukLkc','postersContainer','add','fa-pause','\x20Poster','./Ishqam\x20-\x20Mika\x20Singh\x20ft.\x20Ali\x20Quli\x20Mirza-\x20[PagalWorld.NL].mp3','duration','remove','audioPlayer','50463AJOrmC','alt','textContent','fa-play','createElement','timeupdate','3777660XzdgGT','click','currentTime','length','classList','5GErRPQ','src'];_0x4402=function(){return _0x2774bb;};return _0x4402();}playButton[_0x39856d(0x175)]('click',togglePlayPause);function togglePlayPause(){const _0x3a7749=_0x39856d;audioPlayer[_0x3a7749(0x173)]?playSong():pauseSong();}let currentSongIndex=0x0;function loadSong(_0x7b5d3a){const _0x57fe1b=_0x39856d,_0xe23801=songs[_0x7b5d3a];audioSource[_0x57fe1b(0x161)]=_0xe23801[_0x57fe1b(0x161)],posterImage[_0x57fe1b(0x161)]=_0xe23801[_0x57fe1b(0x172)],audioPlayer[_0x57fe1b(0x16d)](),songTitle[_0x57fe1b(0x157)]=_0xe23801[_0x57fe1b(0x16b)],songDetail['textContent']=_0xe23801[_0x57fe1b(0x146)];}function playSong(){const _0x222172=_0x39856d;audioPlayer[_0x222172(0x141)](),playButton[_0x222172(0x15f)][_0x222172(0x153)](_0x222172(0x158)),playButton[_0x222172(0x15f)][_0x222172(0x14e)](_0x222172(0x14f));}function pauseSong(){const _0x13e594=_0x39856d;audioPlayer['pause'](),playButton[_0x13e594(0x15f)][_0x13e594(0x153)](_0x13e594(0x14f)),playButton[_0x13e594(0x15f)][_0x13e594(0x14e)](_0x13e594(0x158));}audioPlayer[_0x39856d(0x175)](_0x39856d(0x14b),playNextSong);function playNextSong(){const _0x53e32c=_0x39856d;currentSongIndex=(currentSongIndex+0x1)%songs[_0x53e32c(0x15e)],loadSong(currentSongIndex),playSong();}function playPrevSong(){const _0x441168=_0x39856d;currentSongIndex=(currentSongIndex-0x1+songs[_0x441168(0x15e)])%songs[_0x441168(0x15e)],loadSong(currentSongIndex),playSong();}nextButton['addEventListener']('click',playNextSong),prevButton[_0x39856d(0x175)](_0x39856d(0x15c),playPrevSong),songs[_0x39856d(0x16a)]((_0x5650cf,_0x12cc9c)=>{const _0x501007=_0x39856d,_0x3601eb=document[_0x501007(0x159)]('img');_0x3601eb[_0x501007(0x161)]=_0x5650cf[_0x501007(0x172)],_0x3601eb[_0x501007(0x156)]=_0x5650cf['title']+_0x501007(0x150),_0x3601eb[_0x501007(0x15f)][_0x501007(0x14e)](_0x501007(0x16f),_0x501007(0x165),_0x501007(0x178)),_0x3601eb[_0x501007(0x175)]('click',()=>{loadSong(_0x12cc9c),playSong();}),postersContainer[_0x501007(0x140)](_0x3601eb);}),loadSong(currentSongIndex);const progressSlider=document[_0x39856d(0x16e)](_0x39856d(0x168)),progressBar=document[_0x39856d(0x166)](_0x39856d(0x171));progressSlider[_0x39856d(0x143)]=0x0,progressSlider['addEventListener']('input',updatePlayback);function updatePlayback(){const _0x479612=_0x39856d,_0x41a63b=progressSlider[_0x479612(0x143)]/0x64;audioPlayer[_0x479612(0x15d)]=_0x41a63b*audioPlayer[_0x479612(0x152)];}audioPlayer[_0x39856d(0x175)](_0x39856d(0x15a),()=>{const _0x36cb68=_0x39856d,_0x276f01=audioPlayer[_0x36cb68(0x15d)]/audioPlayer[_0x36cb68(0x152)]*0x64;progressSlider[_0x36cb68(0x143)]=_0x276f01;});
+
+
+const songs = [
+  {
+    title: "Ishqam",
+    src: "./Ishqam - Mika Singh ft. Ali Quli Mirza- [PagalWorld.NL].mp3",
+    poster: "./Images/ishqam.jpg",
+    details:"Ishqam - Mika Singh ft. Ali Quli Mirza"
+  },
+  {
+    title: "Katilana",
+    src: "./Katilana_Teri_Aankhen_Aankhen_Bhi_Karti_Hai_BatenPagalWorldl.mp3",
+    poster: "./Images/katilana.jpeg",
+    details:"Katilana_Teri_Aankhen_Aankhen_Bhi_Karti_Hai"
+  },
+  {
+    title: "Maan Meri Jaan",
+    src: "./Maan Meri Jaan Champagne Talk 128 Kbps.mp3",
+    poster: "./Images/mann.jpg",
+    details:"Maan Meri Jaan Champagne Talk 128 Kbps"
+  },
+  {
+    title: "Munda Sona Hoon",
+    src: "./Munda Sona Hoon Main Shehzada 128 Kbps.mp3",
+    poster: "./Images/munda.jpg",
+    details:"Munda Sona Hoon Main Shehzada 128 Kbps"
+  },
+];
+
+const postersContainer = document.getElementById('postersContainer');
+const audioPlayer = document.getElementById("audioPlayer");
+const audioSource = document.getElementById("audioSource");
+const playButton = document.getElementById("playButton");
+// const pauseButton = document.getElementById("pauseButton");
+const prevButton = document.getElementById("prevButton");
+const nextButton = document.getElementById("nextButton");
+const songTitle = document.getElementById("songTitle");
+const songDetail = document.getElementById("songDetail");
+const posterImage = document.getElementById("posterImage");
+
+playButton.addEventListener('click', togglePlayPause);
+
+function togglePlayPause(){
+  if(audioPlayer.paused){
+    playSong()
+    
+  }
+  else{
+    pauseSong()
+    
+  }
+}
+
+let currentSongIndex = 0;
+
+function loadSong(index) {
+  const currentSong = songs[index];
+  audioSource.src = currentSong.src;
+  posterImage.src = currentSong.poster;
+  audioPlayer.load();
+  songTitle.textContent = currentSong.title;
+  songDetail.textContent = currentSong.details;
+}
+
+function playSong() {
+  audioPlayer.play();
+  playButton.classList.remove('fa-play')
+  playButton.classList.add('fa-pause')
+}
+
+function pauseSong() {
+  audioPlayer.pause();
+  playButton.classList.remove('fa-pause')
+    playButton.classList.add('fa-play')
+}
+
+audioPlayer.addEventListener('ended', playNextSong);
+
+function playNextSong() {
+  currentSongIndex = (currentSongIndex + 1) % songs.length;
+  loadSong(currentSongIndex);
+  playSong();
+}
+
+function playPrevSong() {
+  currentSongIndex = (currentSongIndex - 1 + songs.length) % songs.length;
+  loadSong(currentSongIndex);
+  playSong();
+}
+
+// playButton.addEventListener("click", playSong);
+// pauseButton.addEventListener("click", pauseSong);
+nextButton.addEventListener("click", playNextSong);
+prevButton.addEventListener("click", playPrevSong);
+
+// Load the first song initially
+
+
+//  Display the song library
+songs.map((song, index) => {
+    const poster = document.createElement('img');
+    poster.src = song.poster;
+    poster.alt = `${song.title} Poster`;
+    
+    poster.classList.add('col', 'col-md-4','song');
+
+    
+    
+    
+    poster.addEventListener('click', () => {
+        loadSong(index);
+        playSong();
+    });
+    
+    postersContainer.appendChild(poster);
+});
+
+loadSong(currentSongIndex);
+
+
+
+
+// let progress = document.getElementById("progress");
+
+
+// audioPlayer.addEventListener('timeupdate', updateProgressBar);
+
+// function updateProgressBar() {
+//     const currentTime = audioPlayer.currentTime;
+//     const duration = audioPlayer.duration;
+//     const progressPercentage = (currentTime / duration) * 100;
+
+//     progress.style.width = `${100-progressPercentage}%`;
+// }
+
+// ... (existing code)
+
+const progressSlider = document.getElementById('progress');
+const progressBar = document.querySelector('.slider::-webkit-slider-runnable-track');
+
+progressSlider.value = 0;
+progressSlider.addEventListener('input', updatePlayback);
+
+function updatePlayback() {
+    const progress = progressSlider.value / 100;
+    audioPlayer.currentTime = progress * audioPlayer.duration;
+}
+
+audioPlayer.addEventListener('timeupdate', () => {
+    const progress = (audioPlayer.currentTime / audioPlayer.duration) * 100;
+    
+    progressSlider.value = progress;
+});
+
+
+
+// ... (existing code)
