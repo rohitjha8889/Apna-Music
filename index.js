@@ -28,31 +28,31 @@ const songs = [
     title: "Paisa hai to",
     src: "./Music/Paisa-Hai-Toh(PagalWorldl).mp3",
     poster: "./Images/Paisa hai to.jpg",
-    details:"Munda Sona Hoon Main Shehzada 128 Kbps"
+    details:"Paisa-Hai-Toh(PagalWorldl)"
   },
   {
     title: "Dope Shope",
     src: "./Music/Dope Shope International Villager 128 Kbps.mp3",
     poster: "./Images/Dope-Shope.jpg",
-    details:"Munda Sona Hoon Main Shehzada 128 Kbps"
+    details:"Dope Shope International Villager"
   },
   {
     title: "Jiya",
     src: "./Music/Jiya Gunday 128 Kbps.mp3",
     poster: "./Images/jiya.jpg",
-    details:"Munda Sona Hoon Main Shehzada 128 Kbps"
+    details:"Jiya Gunday 128 Kbps"
   },
   {
     title: "Mai Nikla Gadi Leke",
     src: "./Music/Main Nikla Gaddi Leke Gadar Ek Prem Katha 128 Kbps.mp3",
     poster: "./Images/mai nikla.jpg",
-    details:"Munda Sona Hoon Main Shehzada 128 Kbps"
+    details:"Main Nikla Gaddi Leke Gadar Ek Prem Katha 128 Kbps"
   },
   {
     title: "Oops King",
     src: "./Music/Oops King 128 Kbps.mp3",
     poster: "./Images/OOPS.jpg",
-    details:"Munda Sona Hoon Main Shehzada 128 Kbps"
+    details:"Oops King 128 Kbps"
   },
 ];
 
