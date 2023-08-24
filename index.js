@@ -1,31 +1,63 @@
 
-
 const songs = [
   {
     title: "Ishqam",
-    src: "./Ishqam - Mika Singh ft. Ali Quli Mirza- [PagalWorld.NL].mp3",
+    src: "./Music/Ishqam - Mika Singh ft. Ali Quli Mirza- [PagalWorld.NL].mp3",
     poster: "./Images/ishqam.jpg",
     details:"Ishqam - Mika Singh ft. Ali Quli Mirza"
   },
   {
     title: "Katilana",
-    src: "./Katilana_Teri_Aankhen_Aankhen_Bhi_Karti_Hai_BatenPagalWorldl.mp3",
+    src: "./Music/Katilana_Teri_Aankhen_Aankhen_Bhi_Karti_Hai_BatenPagalWorldl.mp3",
     poster: "./Images/katilana.jpeg",
     details:"Katilana_Teri_Aankhen_Aankhen_Bhi_Karti_Hai"
   },
   {
     title: "Maan Meri Jaan",
-    src: "./Maan Meri Jaan Champagne Talk 128 Kbps.mp3",
+    src: "./Music/Maan Meri Jaan Champagne Talk 128 Kbps.mp3",
     poster: "./Images/mann.jpg",
     details:"Maan Meri Jaan Champagne Talk 128 Kbps"
   },
   {
     title: "Munda Sona Hoon",
-    src: "./Munda Sona Hoon Main Shehzada 128 Kbps.mp3",
+    src: "./Music/Munda Sona Hoon Main Shehzada 128 Kbps.mp3",
     poster: "./Images/munda.jpg",
     details:"Munda Sona Hoon Main Shehzada 128 Kbps"
   },
+  {
+    title: "Paisa hai to",
+    src: "./Music/Paisa-Hai-Toh(PagalWorldl).mp3",
+    poster: "./Images/Paisa hai to.jpg",
+    details:"Munda Sona Hoon Main Shehzada 128 Kbps"
+  },
+  {
+    title: "Dope Shope",
+    src: "./Music/Dope Shope International Villager 128 Kbps.mp3",
+    poster: "./Images/Dope-Shope.jpg",
+    details:"Munda Sona Hoon Main Shehzada 128 Kbps"
+  },
+  {
+    title: "Jiya",
+    src: "./Music/Jiya Gunday 128 Kbps.mp3",
+    poster: "./Images/jiya.jpg",
+    details:"Munda Sona Hoon Main Shehzada 128 Kbps"
+  },
+  {
+    title: "Mai Nikla Gadi Leke",
+    src: "./Music/Main Nikla Gaddi Leke Gadar Ek Prem Katha 128 Kbps.mp3",
+    poster: "./Images/mai nikla.jpg",
+    details:"Munda Sona Hoon Main Shehzada 128 Kbps"
+  },
+  {
+    title: "Oops King",
+    src: "./Music/Oops King 128 Kbps.mp3",
+    poster: "./Images/OOPS.jpg",
+    details:"Munda Sona Hoon Main Shehzada 128 Kbps"
+  },
 ];
+
+
+
 
 const postersContainer = document.getElementById('postersContainer');
 const audioPlayer = document.getElementById("audioPlayer");
@@ -53,13 +85,14 @@ function togglePlayPause(){
 
 let currentSongIndex = 0;
 
-function loadSong(index) {
-  const currentSong = songs[index];
+  function loadSong(index) {
+  const currentSong =  songs[index];
   audioSource.src = currentSong.src;
   posterImage.src = currentSong.poster;
   audioPlayer.load();
   songTitle.textContent = currentSong.title;
   songDetail.textContent = currentSong.details;
+  // currentSongIndex = currentSong
 }
 
 function playSong() {
